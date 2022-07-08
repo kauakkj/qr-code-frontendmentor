@@ -16,7 +16,7 @@ img {
     margin-top: 10px;
 }
 
-.text > h2 {
+.text>h2 {
 
     width: 300px;
     margin: auto;
@@ -34,9 +34,12 @@ img {
 body {
     font-family: 'Lato', sans-serif;
     background-color: hsl(212, 45%, 89%);
+    max-width: 1024px;
+    min-width: 120px;
 }
 
 .tudo {
+    min-width: 320px;
     background-color: white;
     width: 320px;
     margin: auto;
